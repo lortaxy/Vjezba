@@ -1,0 +1,25 @@
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .at {
+    color: gray;
+    font-weight: normal;
+  }
+
+  .about {
+    margin-bottom: 15px;
+    width: 14cm;
+    line-height: 25px;
+  }
+
+  .tag {
+    color: rgb(0, 153, 255);
+  }

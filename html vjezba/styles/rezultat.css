@@ -1,0 +1,42 @@
+.box {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  height: 300px;
+  width: 700px;
+}
+
+.match-title {
+  height: 64px;
+  width: 650px;
+}
+
+.cro,
+.bra {
+  height: 48px;
+  width: 48px;
+}
+
+.cro {
+  margin-top: 15px;
+  margin-left: 70px;
+}
+
+.team1 {
+  margin-left: -60px;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+.grid {
+  grid-template-columns: 350px 350px;
+  display: grid;
+}
+
+.bra {
+  margin-top: -700px;
+  display: inline-block;
+  margin-left: 600px;
+}
+
+.team2 {
+  margin-left: 600px;
+}

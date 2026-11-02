@@ -1,0 +1,35 @@
+.google-logo {
+  width: 200px;
+}
+
+.google-box {
+  width: 500px;
+  border: none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 200px;
+  padding: 10px 10px;
+}
+
+.glge {
+  text-align: center;
+}
+
+.inptglge {
+  text-align: center;
+}
+
+.glge-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-button, .lucky-button {
+  border: none;
+  padding: 10px 15px;
+  font-family: Arial;
+  margin-right: 5px;
+  background-color: rgb(245, 238, 238);
+  cursor: pointer;
+}
+
+

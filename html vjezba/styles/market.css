@@ -1,0 +1,25 @@
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .currency {
+    color: gray;
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+    .stats {
+      color: green;
+      font-size: 24px;
+      margin-top: 10px;
+  }
+
+  .afterhrs {
+    color: red;
+  }
+
+  .price {
+    font-size: 50px;
+  }

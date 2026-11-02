@@ -1,0 +1,67 @@
+div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 3000px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.sideone {
+  background-color: rgb(33, 33, 33);
+  padding-right: 5px;
+  padding-top: 10px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.pfp {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.sidetwo {
+  background-color: rgb(55, 55, 55);
+  width: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  position: fixed;
+  left: 60px;
+  top: 0;
+  bottom: 0;
+}
+
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inf {
+  color: white;
+  font-size: 14px;
+}
+
+.add-icon {
+  color: rgb(156, 156, 156);
+  font-size: 25px;
+}
+
+.section-selection {
+  color: rgb(156, 156, 156);
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+

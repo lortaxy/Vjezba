@@ -1,0 +1,32 @@
+p {
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+    .title {
+      font-weight: bold;
+      margin-bottom: 5px;
+      font-size: 20px;
+      max-width: 1000px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .undertitle {
+      color: gray;
+      margin-bottom: 20px;
+    }
+  
+    .text {
+      margin-bottom: 15px;
+      width: 8cm;
+    }
+  
+    .get-start {
+      border: none;
+      background-color: green;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+    }

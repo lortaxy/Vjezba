@@ -1,0 +1,52 @@
+.redsquare {
+  background-color: red;
+  width: 60px;
+  height: 60px;
+}
+
+.greencircle {
+  background-color: green;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.service-box {
+  border: solid;
+  width: 300px;
+  height: 90px;
+  margin-top: 10px;
+  border-width: 1px;
+  border-color: rgb(197, 196, 196);
+}
+
+p {
+  margin-left: 10px;
+  font-family: Arial;
+}
+
+button {
+  margin-left: 10px;
+  font-family: 10px;
+}
+
+.youtube-musicad {
+  background-color: rgb(41, 40, 40);
+  width: 300px;
+  height: 100px;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.about {
+  color: rgb(143, 143, 143);
+  font-size: 12px;
+  margin-top: 1px;
+}
+
+

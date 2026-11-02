@@ -1,0 +1,42 @@
+div {
+  font-family: Arial;
+}
+
+.search-container {
+  background-color: rgb(161, 73, 243);
+  display: flex;
+  flex-direction: row;
+  padding: 10px 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 200px;
+}
+
+.middle-section {
+  flex: 1;
+}
+
+.search-box {
+  width: 800px;
+  border: none;
+  border-radius: 200px;
+  padding: 10px 10px;
+} 
+
+button {
+  color: white;
+  font-family: Arial;
+  background-color: rgb(161, 73, 243);
+  border-color: white;
+  border: solid;
+  border-width: 1px;
+  padding: 8px 15px;
+  font-size: 15px;
+}
+

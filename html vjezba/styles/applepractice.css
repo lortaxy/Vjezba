@@ -1,0 +1,21 @@
+p {
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .smalltitle {
+    font-size: 11px;
+    margin-bottom: 15px;
+  }
+  
+  .link {
+    color: rgb(0, 186, 248);
+    font-size: 11px;
+  }

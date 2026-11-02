@@ -1,0 +1,44 @@
+body {
+  height: 3000px;
+}
+
+
+.empty-container {
+  position: fixed;
+  width: 320px;
+  height: 180px;
+  background-color: gray;
+  bottom: 15px;
+  right: 15px;
+}
+
+.cancel-button {
+  color: white;
+  background-color: black;
+  height: 45px;
+  width: 45px;
+  border-radius: 25px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 15px;
+  right: 15px;
+  font-family: Arial;
+  font-weight: 500;
+  font-size: 20px;
+  left: -15px;
+  top: -15px;
+  cursor: pointer;
+}
+
+
+.time-stamp {
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 5px;
+  right: 5px;
+  font-family: Arial;
+  padding: 5px;
+}

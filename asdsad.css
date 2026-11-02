@@ -1,0 +1,187 @@
+body {
+    background-color: #123e64;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* FLEXBOX */
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
+  background-color: #123e64;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+#header {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 75px;
+  width: 100%;
+}
+
+#headerleft {
+  background-color: red;
+  height: 75px;
+  order: 1;
+  flex: 1 2 250px;
+}
+
+#headermain {
+  background-color: orange;
+  height: 75px;   
+  order: 2;
+  flex: 2 1 700px;
+}
+
+#headerright {
+  background-color: green;
+  height: 75px;
+  order: 3;
+  flex: 1 1 300px;
+}
+
+#middle {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+#blueleft {
+  background-color: yellow;
+  order: 4;
+  flex: 1 2 250px;
+}
+
+#contentbox {
+  background-color: #f1f1f1;
+  order: 5;
+  flex: 2 1 700px;
+  padding: 10px;
+}
+
+#blueright {
+  background-color: pink;
+  order: 6;
+  flex: 1 1 320px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#herobox {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+#footer {
+  display: flex;
+ flex-wrap: nowrap;
+  width: 100%;
+}
+
+#footerleft {
+  background-color: red;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  order: 7;
+  flex: 1 2 250px;
+}
+
+#footermiddle {
+  background-color: green;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  order: 8;
+  flex: 2 1 700px;
+}
+
+#footerright {
+  background-color: yellow;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  order: 9;
+  flex: 1 1 320px;
+}
+
+/* TYPOGRAPHY */
+
+/* Headings */
+
+h1 {
+  font-family: "Arial", sans-serif;
+  color: #f1f1f1;
+  font-size: 42pt;
+  padding: 0px; 
+  margin: 0px;
+  cursor: pointer;
+  display: table;
+  display: inline-block;
+}
+
+h2 {
+  padding: 0px;
+  margin: 0px;
+  margin-top: -5px;
+  font-family: "Arial", sans-serif;
+  color: #010101;
+  font-size: 28pt;
+}
+
+h3 {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+/* Sidebar */
+
+#sidebar {
+  position: fixed;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 20px;
+}
+
+.sidebarbutton p {
+  list-style: none;
+  font-family: "Arial", sans-serif;
+  color: #f1f1f1;
+  margin: -5px;
+  padding: -5px;
+  font-size: 32pt;
+  line-height: 34pt;
+  display: inline-block;
+  clear: both;
+}
+
+.sidebarbutton p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Footer */
+
+#footermiddle p {
+  font-family: "Arial", sans-serif;
+  color: #f1f1f1;
+  font-size: 8pt;
+  line-height: 10pt;
+  text-align: justify;
+}
+
+/* #CONTENT */
+
+img {
+  width: 100%;
+}

@@ -1,0 +1,710 @@
+.left-side {
+  background-color: black;
+  position: fixed;
+  color: white;
+  width: 600px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-right-style: solid;
+  border-right-color: rgb(44, 44, 44);
+  border-right-width: 0.5px;
+}
+
+.twitter-logo {
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  
+}
+
+.settings-icon {
+  height: 40px;
+  width: 40px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.settings-link {
+  cursor: pointer;
+}
+
+.explore-link {
+  cursor: pointer;
+}
+  
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 340px; 
+  line-height: 45px;
+  margin-top: 10px;
+}
+
+body {
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  padding-left: 590px;
+  margin-top: 0;
+  height: 5525px;
+}
+
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.hashtag-icon {
+  height: 40px;
+  width: 40px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.search-section {
+  background-color: rgba(0, 0, 0, 0.767);
+  width: 567px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  position: fixed;
+  backdrop-filter: blur(6px);
+  border-left-style: solid;
+  border-left-color: rgb(44, 44, 44);
+  border-left-width: 0.5px;
+  margin-left: 2px;
+  border-right-style: solid;
+  border-right-color: rgb(44, 44, 44);
+  border-right-width: 0.5px;
+}
+
+form.nosubmit {
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+input.nosubmit {
+  width: 500px;
+  border: none;
+  display: block;
+  padding: 15px 15px 15px 40px;
+  border-radius: 200px;
+  margin-left: 8px;
+  background: rgb(39, 39, 39) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+
+.settings-shortcut {
+  height: 25px;
+  width: 25px;
+  margin-left: 35px;
+  background-color: rgba(0, 0, 0, 0.767);
+  cursor: pointer;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.undertitle {
+  font-size: 12px;
+  margin-bottom: 3px;
+  color: gray;
+}
+
+.trending-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 3px;
+  color: white;
+}
+
+.number-of-tweets {
+  font-size: 12px;
+  margin-bottom: 15px;
+  color: gray;
+}
+
+
+.main-content {
+  background-color: black;
+  width: 570px;
+  padding-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  border-right-style: solid;
+  border-right-color: rgb(44, 44, 44);
+  border-right-width: 0.5px;
+}
+
+.show-more-link {
+  color: rgb(29, 155, 240);
+  font-size: 15px;
+  margin-left: 2px;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.result-box {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.team-box {
+  display: flex;
+  height: 48px;
+  background-color: rgb(0, 33, 165);
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.title-result {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.results-section {
+  width: 570px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-right: 15px;
+  background-color: black;
+  border-top: solid;
+  border-top-width: 0.5px;
+  border-top-color: rgb(44, 44, 44);
+  padding-bottom: 20px;
+  border-right-style: solid;
+  border-right-color: rgb(44, 44, 44);
+  border-right-width: 0.5px;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.sport-title {
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.result-of-match {
+  font-size: 13px;
+  color: gray;
+}
+
+.team-icon {
+  height: 30px;
+  width: 40px;
+  object-fit: cover;
+  margin-left: 8px;
+}
+
+.team-name {
+  color: white;
+  margin-left: 15px;
+  font-size: 15px;
+  flex: 1;
+}
+
+.team-points-lost {
+  font-size: 23px;
+  display: inline;
+  color: white;
+  opacity: 50%;
+}
+
+.team-box2 {
+  display: flex;
+  height: 48px;
+  background-color: rgb(0, 51, 160);
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.team-points {
+  font-size: 23px;
+  display: inline;
+  color: white;
+}
+
+.team-box3 {
+  display: flex;
+  height: 48px;
+  background-color: rgb(140, 21, 21);
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.team-box4 {
+  display: flex;
+  height: 48px;
+  background-color: rgb(207, 184, 124);
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.team-box5 {
+  display: flex;
+  height: 48px;
+  background-color: rgb(78, 42, 132);
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.team-box6 {
+  display: flex;
+  height: 48px;
+  background-color: rgb(155, 0, 0);
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 20px;
+}
+
+
+.team-box7 {
+  display: flex;
+  height: 48px;
+  background-color: rgb(4, 30, 66);
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.team-box8 {
+  display: flex;
+  height: 48px;
+  background-color: rgb(227, 25, 55);
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.team-box9 {
+  display: flex;
+  height: 48px;
+  background-color: rgb(19, 34, 87);
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.team-box10 {
+  display: flex;
+  height: 48px;
+  background-color: rgb(108, 171, 221);
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.team-box11 {
+  display: flex;
+  height: 48px;
+  background-color: rgb(0, 94, 184);
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.team-box12 {
+  display: flex;
+  height: 48px;
+  background-color: rgb(0, 51, 160);
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.team-box13 {
+  display: flex;
+  height: 48px;
+  background-color: rgb(91, 43, 130);
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.team-box14 {
+  display: flex;
+  height: 48px;
+  background-color: rgb(0, 22, 65);
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.team-box15 {
+  display: flex;
+  height: 48px;
+  background-color: rgb(13, 34, 64);
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.team-box16 {
+  display: flex;
+  height: 48px;
+  background-color: rgb(9, 27, 49);
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.tweet-main-cont {
+  display: flex;
+  padding-left: 15px;
+  background-color: black;
+  width: 585px;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+  border-bottom-color: rgb(44, 44, 44);
+  padding-top: 20px;
+  border-right-style: solid;
+  border-right-color: rgb(44, 44, 44);
+  border-right-width: 0.5px;
+  cursor: pointer;
+}
+
+.user-pfp {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.user-tag-time {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  gap: 3px;
+}
+
+.username {
+  color: white;
+}
+
+.user-tag,
+.time,
+.dot {
+  color: gray;
+}
+
+.section-title2 {
+  padding-left: 15px;
+  padding-top: 15px;
+  background-color: black;
+  color: white;
+  border-top-color: rgb(44, 44, 44);
+  border-top-style: solid;
+  border-top-width: 0.5px;
+  width: 585px;
+  border-right-style: solid;
+  border-right-color: rgb(44, 44, 44);
+  border-right-width: 0.5px;
+}
+
+.message {
+  margin-left: 12px;
+  font-size: 15px;
+  color: white;
+}
+
+.msg-pic {
+  height: 336px;
+  width: 504px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.msg-pic2 {
+  height: 510px;
+  width: 382px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.msg-pic3 {
+  height: 510px;
+  width: 408px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.msg-pic4 {
+  width: 504px;
+  height: 384px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.verified-tag {
+  height: 18px;
+}
+
+.verified-icon {
+  height: 18px;
+  width: 18px;
+}
+
+.tweet-option-button {
+  display: flex;
+  gap: 50px;
+  margin-left: 15px;
+}
+
+.reply-button,
+.retweet-button,
+.like-button,
+.views-button,
+.share-button {
+  border: none;
+  background-color: black;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.details {
+  color: gray;
+  font-size: 13px;
+}
+
+.option-container {
+  display: flex;
+  align-items: center;
+}
+
+.right-section {
+  position: fixed;
+  background-color: black;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 1199px;
+}
+
+.signinbox {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: rgb(44, 44, 44);
+  border-width: 0.5px;
+  border-radius: 20px;  
+  width: 310px;
+  margin-left: 25px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.box-title {
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  padding-left: 5px;  
+}
+
+.signupinfo {
+  color: rgb(113, 118, 123);
+  font-size: 13px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.terms {
+  color: rgb(113, 118, 123);
+  font-size: 13px;
+}
+
+.links {
+  color: rgb(29, 155, 240);
+  text-decoration: underline;
+}
+
+.google,
+.apple,
+.create {
+  width: 274px;
+  height: 38px;
+  letter-spacing: 0.25px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.google {
+  font-weight: 500;
+}
+
+.apple,
+.create {
+  font-weight: 700;
+}
+
+.signflex {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-section {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 910px;
+  background-color: rgb(29, 155, 240);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 170px;
+}
+
+.text-bottom,
+.bottom-text {
+  color: white;
+}
+
+.text-bottom {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: -10px;
+}
+
+.bottom-text {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.loginbutton {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: rgb(29, 155, 240);
+  border-radius: 16px;
+  border-color: rgb(255, 255, 255, 0.35);
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.loginbutton:hover {
+  background-color: rgba(255, 255, 255, 0.116); 
+}
+
+.signupbutton {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: white;
+  border-radius: 16px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.signupbutton:hover {
+  background-color: rgb(224, 224, 224);
+}
+
+.sidebar-text-bottom {
+  margin-top: -10px;
+}
+
+.buttons {
+  margin-left: 450px;
+}
+
+.select:hover {
+  background-color: rgb(15, 15, 15);
+}
+
+.select {
+  cursor: pointer;
+}
+
+.google:hover,
+.apple:hover,
+.create:hover {
+  background-color: rgb(224, 224, 224);
+}
+
+
+
